@@ -9,7 +9,7 @@ function Calculator() {
             type="text"
             value = {text}
             disabled
-            className="w-full py-4  text-2xl bg-primary-content text-primary  shadow-sm  px-4 py-2 rounded-2xl shadow-primary "
+            className="w-full   text-2xl bg-primary-content opacity-80  backdrop-blur-lg text-primary  shadow-sm  px-4 py-4 rounded-2xl shadow-primary "
           />
         </div>
         <div className="mt-4 grid  grid-cols-4 gap-2">

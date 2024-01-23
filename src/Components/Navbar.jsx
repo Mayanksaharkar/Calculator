@@ -1,12 +1,11 @@
 import { useState } from "react";
 function Navbar() {
-  const [theme, setTheme] = useState("light");
-
+  const [theme, setTheme] = useState("black");
+  localStorage.setItem("theme", theme);
   const themes = [
     "light",
     "dark",
     "cupcake",
-    "bumblebee",
     "emerald",
     "corporate",
     "halloween",
@@ -22,16 +21,17 @@ function Navbar() {
     "dim",
     "nord",
   ];
-  const handleThemeClick = (theme) => {
-    const body = document.getElementsByTagName("body")[0];
+  const body = document.getElementsByTagName("body")[0];
+  body.setAttribute("data-theme", theme);
 
+  const handleThemeClick = (theme) => {
     body.setAttribute("data-theme", theme);
     setTheme(theme);
-    localStorage.setItem('theme' , theme);
+    localStorage.setItem("theme", theme);
   };
   return (
     <div className="flex justify-center py-2">
-      <div className="navbar w-11/12  bg-base-300 shadow-2xl rounded-full px-4">
+      <div className="navbar w-11/12  bg-base-300 shadow-md rounded-full px-4">
         <div className="navbar-start">
           <a className="btn btn-ghost text-xl ">Calculator</a>
         </div>

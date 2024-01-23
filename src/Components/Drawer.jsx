@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Calculator from "./Calculator";
 function Drawer() {
 
       const [theme, setTheme] = useState(localStorage.getItem('theme') );
@@ -31,10 +32,14 @@ function Drawer() {
   }
 
   return (
-    <div className="drawer drawer-end ">
+    <div className="drawer drawer-end flex justify-center h-full bg-base-300 align-middle " id="calculator">
   <input id="my-drawer" type="checkbox" className="drawer-toggle" />
    
-  <div className="drawer-side ">
+   <div  className="drawer-content flex flex-row justify-center align-middle   w-6/6">
+    <Calculator/>
+     </div>
+
+  <div className="drawer-side z-2 ">
     <label htmlFor="my-drawer" aria-label="close sidebar" className="drawer-overlay"></label>
     <ul className="menu p-4 w-80 min-h-full bg-base-200 text-base-content rounded-s-3xl">
         {themes.map((theme)=>(

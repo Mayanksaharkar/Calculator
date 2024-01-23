@@ -1,5 +1,4 @@
-# Modern Calculator with 15+ Themes
-
+# Modern Calculator with 15+ Themes ([demo](https://bit.ly/3OeEyXb))
 #### Welcome to the Modern Calculator website
 
 ## Tech Stack:
@@ -52,7 +51,7 @@
 
 ## Introduction
 
-#### The Modern Calculator is a modern and visually appealing calculator application developed using cutting-edge web technologies. It provides a user-friendly interface, advanced mathematical functions, and the flexibility to switch between multiple themes to suit your preferences.
+#### The Modern Calculator is a modern and visually appealing calculator application developed using cutting-edge web technologies. It provides a user-friendly interface and the flexibility to switch between multiple themes to suit your preferences.
 
 ## Features
 

@@ -1,4 +1,4 @@
-# Modern Calculator with 15+ Themes ([demo](https://bit.ly/3OeEyXb))
+# Modern Calculator with 15+ Themes ([demo](https://heroic-fudge-7f75f4.netlify.app/))
 #### Welcome to the Modern Calculator website
 
 ## Tech Stack:
